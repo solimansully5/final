@@ -95,7 +95,7 @@ class Screen1 extends StatelessWidget {
               right: 0,
               child: Center(
                 child: InkWell(
-                  onTap: (){Navigator.pushNamed(context, MainPageRoute);},
+                  onTap: (){Navigator.pushNamed(context, MainPageRoute);},// lazem y5sl change hena
                   child: Container(
                     padding: EdgeInsets.symmetric(horizontal: 50, vertical: 10),
                     decoration: BoxDecoration(
